@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<data>
+	<container id="1">
+		<content>Tea</content>
+		<left>600</left>
+		<saturated_fat>0</saturated_fat>
+		<polyunsaturated_fat>0</polyunsaturated_fat>
+		<monounsaturated_fat>0</monounsaturated_fat>
+		<cholestrol>0</cholestrol>
+		<sodium>0.042194093</sodium>
+		<potassium>0.181434599</potassium>
+		<carbohydrates>0.001687764</carbohydrates>
+		<dietary_fiber>0</dietary_fiber>
+		<sugars>0</sugars>
+		<protein>0</protein>
+		<vitamin_a>0</vitamin_a>
+		<vitamin_c>0</vitamin_c>
+		<calcium>0</calcium>
+		<iron>0</iron>
+	</container>
+	<container id="2">
+		<content>Coffee</content>
+		<left>600</left>
+		<saturated_fat>0</saturated_fat>
+		<polyunsaturated_fat>0</polyunsaturated_fat>
+		<monounsaturated_fat>0</monounsaturated_fat>
+		<cholestrol>0</cholestrol>
+		<sodium>0.042194093</sodium>
+		<potassium>0.181434599</potassium>
+		<carbohydrates>0.001687764</carbohydrates>
+		<dietary_fiber>0</dietary_fiber>
+		<sugars>0</sugars>
+		<protein>0</protein>
+		<vitamin_a>0</vitamin_a>
+		<vitamin_c>0</vitamin_c>
+		<calcium>0</calcium>
+		<iron>0</iron>
+	</container>
+	<container id="3">
+		<content>Not Set</content>
+	</container>
+	<container id="4">
+		<content>Not Set</content>
+	</container>
+	<container id="5">
+		<content>Not Set</content>
+	</container>
+	<container id="6">
+		<content>Not Set</content>
+	</container>
+</data>
