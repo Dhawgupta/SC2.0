@@ -32,7 +32,7 @@ while 1:
         r1 = (arr[6]+ arr[5] + arr[3] + arr[4])/4
         r2 = (arr2[6] + arr2[5] + arr2[3] + arr2[4])/4
         
-        print r1 +  "   " + r2
+        print str(r1) +  "   " + str(r2)
 
         a1.power_down()
         a2.power_down()
