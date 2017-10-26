@@ -1,6 +1,6 @@
 from hx711 import Hx711
 from time import sleep
-calibration_factor = -17650.0 # set the calibratino factor from -7050 for pounds to -176550 for kg's
+calibration_factor = -1000.0#-17650.0 # set the calibratino factor from -7050 for pounds to -176550 for kg's
 a1 = Hx711(36,20)
 a2 = Hx711(48,14)
 a1.set_scale(calibration_factor)
@@ -33,6 +33,8 @@ while 1:
         r2 = (arr2[6] + arr2[5] + arr2[3] + arr2[4])/4
         
         w = r1 + r2
+        print "Weights : " + str(r1) + '  ' + str(r2) + "Total : " + str(w)
+
         if w > threshold_w:
                 x = (r1*l1 + r2*l2)/w
 

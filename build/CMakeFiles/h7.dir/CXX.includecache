@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/root/server/SC2.0/src/HX711.hpp
+unistd.h
+-
+stdlib.h
+-
+stdint.h
+-
+string.h
+-
+mraa/gpio.h
+-
+
+/home/root/server/SC2.0/src/try.cpp
+HX711.hpp
+/home/root/server/SC2.0/src/HX711.hpp
+

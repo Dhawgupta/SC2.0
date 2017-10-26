@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/h7.dir/src/try.o  -o h7 -rdynamic -lmraa -lstdc++ 
