@@ -1,6 +1,6 @@
 from hx711 import Hx711
 from time import sleep
-calibration_factor = -7050.0
+calibration_factor = -17650.0 # set the calibratino factor from -7050 for pounds to -176550 for kg's
 a1 = Hx711(36,20)
 a2 = Hx711(48,14)
 a1.set_scale(calibration_factor)
